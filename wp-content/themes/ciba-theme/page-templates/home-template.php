@@ -26,7 +26,7 @@ get_header();
         <div class="hero-wrapper position-relative ">
 
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-animation/SafariLight.png" alt="" class="img-fluid fade-wrapper" />
-
+            <span class="feature-hero-overlay"></span>
             <div class="input-image-wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-animation/Input.png" alt="" class="hero-img-inside img-fluid" />
             </div>
@@ -88,6 +88,7 @@ get_header();
                     </div>
                     <div class="feature-card-bottom">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/Input.png" alt="" class="feature-img-one img-fluid" />
+                        <span class="feature-blur-overlay"></span>
                         <div class="feature-card-content">
                             <h3>Advanced Prompting</h3>
                             <h4>With Prompt Studio®, you can create advanced and accurate Prompts.</h4>
@@ -184,6 +185,7 @@ get_header();
                 <div class="col-md-4">
                     <div class="feature-card-third">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/third.png" alt="Sparkle Icon" class="img-fluid third-card-img" />
+                        <span class="feature-third-overlay"></span>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/i.svg" alt="Sparkle Icon" class="img-fluid third-card-icon">
                         <div class="">
                             <h3>Divide Projects into Sub-parts</h3>
@@ -206,7 +208,8 @@ get_header();
     <div class="container main-container">
         <div class="row about-row ">
             <!-- Left Column -->
-            <div class="col-md-6 pe-0 about-right">
+            <div class="col-lg-6 ">
+                <div class="about-right">
                 <h2 class="about-title mb-2">About Us</h2>
                 <h4 class="about-highlight ">
                     We only care about what users truly want.
@@ -223,10 +226,12 @@ get_header();
                     experiences. With code-friendly embedding integrations, developers can easily
                     incorporate AI functionalities into their workflows.
                 </h5>
+                </div>
             </div>
 
             <!-- Right Column -->
-            <div class="col-md-6  ps-0 about-left">
+            <div class="col-lg-6">
+                <div class="about-left h-100">
                 <div class="d-flex " style="margin-bottom:32px; gap:40px">
                     <div class="d-flex box-1">
                         <div class="">
@@ -269,6 +274,7 @@ get_header();
                             <h6>Item 4</h6>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
