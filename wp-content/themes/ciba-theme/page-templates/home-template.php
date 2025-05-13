@@ -3,34 +3,40 @@
 get_header();
 ?>
 
-<div class="hero-section hero-img">
+<div class="hero-section ">
     <div class="common-section">
-    <div class="container main-container">
-        <div class="hero-content d-flex flex-column align-items-center justify-content-center text-center">
-            <h1 class="hero-title text-gradient">
-                Your Prompts. <br />
-                <span>Will never be the same!</span>
-            </h1>
-            <h5 class="hero-subtitle">
-                Streamline your Chat based Projects with our cutting edge tools and <br />
-                features which will redefine the way you use AI.
-            </h5>
-            <div class="position-relative">
-            <button class="hero-btn light">
-                Get Started
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-section/spark.svg" alt="Sparkle Icon" />
-            </button>
+        <div class="container main-container">
+            <div class="hero-content d-flex flex-column align-items-center justify-content-center text-center">
+                <h1 class="hero-title text-gradient">
+                    Your Prompts. <br />
+                    <span>Will never be the same!</span>
+                </h1>
+                <h5 class="hero-subtitle">
+                    Streamline your Chat based Projects with our cutting edge tools and <br />
+                    features which will redefine the way you use AI.
+                </h5>
+                <div class="position-relative">
+                    <button class="hero-btn light">
+                        Get Started
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-section/spark.svg" alt="Sparkle Icon" />
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="d-flex align-items-center justify-content-center ">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-animation/SafariLight.png" alt="" class="img-fluid fade-wrapper" />
+        <div class="hero-wrapper position-relative ">
 
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-animation/Input.png" alt="" class="hero-img-inside img-fluid" />
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-animation/Overlay1.png" alt="" class="hero-card1 img-fluid" />
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-animation/Overlay.png" alt="" class="hero-card2 img-fluid" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-animation/SafariLight.png" alt="" class="img-fluid fade-wrapper" />
 
-    </div>
+            <div class="input-image-wrapper">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-animation/Input.png" alt="" class="hero-img-inside img-fluid" />
+            </div>
+            <div class="hero-card2-wrapper">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-animation/Overlay.png" alt="" class="hero-card2 img-fluid" />
+            </div>
+            <div class="hero-card1-wrapper">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-animation/Overlay1.png" alt="" class="hero-card1 img-fluid" />
+            </div>
+        </div>
     </div>
 </div>
 
@@ -38,26 +44,26 @@ get_header();
 <!--  -->
 <div class="icon-section">
     <div class="conatiner main-container">
-        <div class="d-flex  justify-content-between hero-bottom">
+        <div class=" hero-bottom">
             <div class="d-flex hero-box">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-section/layers.svg" alt="Sparkle Icon" width="42" />
-                <p>Multiple layer of Chats to manage projects</p>
+                <p>Multiple layer of Chats </br>to manage projects</p>
             </div>
             <div class="d-flex hero-box">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-section/auto_fix_high.svg" alt="Sparkle Icon" width="42" />
-                <p>Over 100 Tools and Elements  to choose from</p>
+                <p>Over 100 Tools and Elements</br>to choose from</p>
             </div>
             <div class="d-flex hero-box">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-section/code.svg" alt="Sparkle Icon" width="42" />
-                <p>Code Friendly Embedding Integrations</p>
+                <p>Code Friendly Embedding</br>Integrations</p>
             </div>
             <div class="d-flex hero-box">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-section/account_tree.svg" alt="Sparkle Icon" width="42" />
-                <p>Efficient Prompt Tracking in Trees</p>
+                <p>Efficient Prompt Tracking</br>in Trees</p>
             </div>
             <div class="d-flex hero-box">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero-section/tune.svg" alt="Sparkle Icon" width="42" />
-                <p>Advanced Configurations for all requirements</p>
+                <p>Advanced Configurations</br>for all requirements</p>
             </div>
         </div>
     </div>
@@ -90,78 +96,76 @@ get_header();
                 </div>
                 <div class="col-md-4">
                     <div class="feature-card-two">
-                        <div class="">
-                            <section class="marquee-section">
-                                <div class="marquee-wrapper">
-                                    <div class="marquee-badge marquee-item marquee-item1">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
-                                        <span>OpenAI GPT-4o Mini</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item2">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
-                                        <span>Claude 3.5 Sonnet</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item3">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/cc.svg" alt="Icon" />
-                                        <span>Cerebras GPT 6.7B</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item4">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
-                                        <span>OpenAI GPT-4o Mini</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item5">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
-                                        <span>Claude 3.5 Sonnet</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item6">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/cc.svg" alt="Icon" />
-                                        <span>Cerebras GPT 6.7B</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item7">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
-                                        <span>OpenAI GPT-4o Mini</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item8">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
-                                        <span>Claude 3.5 Sonnet</span>
-                                    </div>
+                        <section class="marquee-section">
+                            <div class="marquee-wrapper">
+                                <div class="marquee-badge marquee-item marquee-item1">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
+                                    <span>OpenAI GPT-4o Mini</span>
                                 </div>
-                                <div class="marquee-wrapper marquee-2">
-                                    <div class="marquee-badge marquee-item marquee-item1">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
-                                        <span>OpenAI GPT-4o Mini</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item2">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
-                                        <span>Claude 3.5 Sonnet</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item3">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/cc.svg" alt="Icon" />
-                                        <span>Cerebras GPT 6.7B</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item4">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
-                                        <span>OpenAI GPT-4o Mini</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item5">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
-                                        <span>Claude 3.5 Sonnet</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item6">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/cc.svg" alt="Icon" />
-                                        <span>Cerebras GPT 6.7B</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item7">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
-                                        <span>OpenAI GPT-4o Mini</span>
-                                    </div>
-                                    <div class="marquee-badge marquee-item marquee-item8">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
-                                        <span>Claude 3.5 Sonnet</span>
-                                    </div>
+                                <div class="marquee-badge marquee-item marquee-item2">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
+                                    <span>Claude 3.5 Sonnet</span>
                                 </div>
-                            </section>
-                        </div>
+                                <div class="marquee-badge marquee-item marquee-item3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/cc.svg" alt="Icon" />
+                                    <span>Cerebras GPT 6.7B</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item4">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
+                                    <span>OpenAI GPT-4o Mini</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item5">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
+                                    <span>Claude 3.5 Sonnet</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item6">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/cc.svg" alt="Icon" />
+                                    <span>Cerebras GPT 6.7B</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item7">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
+                                    <span>OpenAI GPT-4o Mini</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item8">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
+                                    <span>Claude 3.5 Sonnet</span>
+                                </div>
+                            </div>
+                            <div class="marquee-wrapper marquee-2">
+                                <div class="marquee-badge marquee-item marquee-item1">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
+                                    <span>OpenAI GPT-4o Mini</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item2">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
+                                    <span>Claude 3.5 Sonnet</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/cc.svg" alt="Icon" />
+                                    <span>Cerebras GPT 6.7B</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item4">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
+                                    <span>OpenAI GPT-4o Mini</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item5">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
+                                    <span>Claude 3.5 Sonnet</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item6">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/cc.svg" alt="Icon" />
+                                    <span>Cerebras GPT 6.7B</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item7">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/gpt.svg" alt="Icon" />
+                                    <span>OpenAI GPT-4o Mini</span>
+                                </div>
+                                <div class="marquee-badge marquee-item marquee-item8">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/aa.svg" alt="Icon" />
+                                    <span>Claude 3.5 Sonnet</span>
+                                </div>
+                            </div>
+                        </section>
                         <div class="feature-logo">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/a.png" alt="" />
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/b.png" alt="" />
@@ -180,7 +184,7 @@ get_header();
                 <div class="col-md-4">
                     <div class="feature-card-third">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/third.png" alt="Sparkle Icon" class="img-fluid third-card-img" />
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/i.svg" alt="Sparkle Icon" class="img-fluid third-card-icon" >
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature/i.svg" alt="Sparkle Icon" class="img-fluid third-card-icon">
                         <div class="">
                             <h3>Divide Projects into Sub-parts</h3>
                             <h4>With Prompt Studio®, you can create advanced and accurate Prompts.</h4>
@@ -200,7 +204,7 @@ get_header();
     </div>
 
     <div class="container main-container">
-        <div class="row" style="padding-top:100px; padding-bottom:78px">
+        <div class="row about-row ">
             <!-- Left Column -->
             <div class="col-md-6 pe-0 about-right">
                 <h2 class="about-title mb-2">About Us</h2>

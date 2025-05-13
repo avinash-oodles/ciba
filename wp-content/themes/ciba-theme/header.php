@@ -44,7 +44,7 @@
       <!-- Right Actions (Desktop only) -->
       <div class="d-none d-lg-flex align-items-center gap-2">
         <div class="d-flex align-items-center gap-1 nav-lang-switch">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nav/Language.svg" alt="Logo" width="48" height="22px"/>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nav/Language.svg" alt="Logo" width="48" height="2px"/>
         </div>
         <a href="#" class="nav-btn-outline">Sign Up</a>
         <a href="#" class="nav-btn-primary">Log In</a>
@@ -77,6 +77,7 @@
     </div>
   </div>
 
+  <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
